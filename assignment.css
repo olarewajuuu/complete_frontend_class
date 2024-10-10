@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(206, 205, 205);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+}
+.container h4{
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+.container input{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.container .password{
+    margin-top: 20px;
+}
+.container button{
+    width: 252px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+.container input::placeholder{
+    padding: 10px;
+}

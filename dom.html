@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./dom.css">
+</head>
+<body>
+    <div>
+        <h1 id="message">Hello World!!!</h1>
+        <h1 id="message">Hello World!!!</h1>
+        <h1 id="message">Hello World!!!</h1>
+    </div>
+
+    <!-- getElementsByName() -->
+    <div>
+        <input type="text" name="firstName">
+        <input type="text" name="firstName">
+        <input type="text" name="firstName">
+    </div>
+
+     <!-- getElementsByTagName() -->
+     <div>
+        <h1>Welcome</h1>
+        <h2>Hello</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+
+     <!-- getElementsByClassName() -->
+     <div>
+        <h1 class="classname">my classes</h1>
+        <h1 class="classname">my classes</h1>
+     </div>
+
+     <div id ="col">
+        <h1 class="classname">Third Heading</h1>
+        <h1 class="classname">Fouth Heading</h1>
+     </div>
+
+     <div>
+        <p class="quary">Lorem ipsum dolor sit amet consectetur.</p>
+        <p id="quaryId">Lorem ipsum dolor sit amet consectetur.</p>
+        <p id="quaryId">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="quary">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="quary">Lorem ipsum dolor sit amet consectetur.</p>
+     </div>
+
+        <!-- selecting parent elments -->
+    <div class="title">
+        <p class="text">Welcom to class</p>
+    </div>
+
+       <!-- selecting child elments -->
+    <div class="parent">
+        <p >Good mornig 1</p>
+        <p class="sibling">Good mornig 2</p>
+        <p>Good mornig 3</p>
+        <p>Good mornig 4</p>
+    </div>
+
+    
+   <ul id="menu">
+    <li>Home</li>
+    <li>About</li>
+    <li>Blog</li>
+    <li>Project</li>
+ </ul>
+
+ <h1 id="test"></h1>
+
+ <input type="text" id="username" placeholder="type here">
+
+ <div>
+    <input type="text" id="gender" placeholder="Fullname" style="background-color: red;">
+    <button id="submit">submit</button>
+    <h1 id="thank" style="display: none;">Thank You for your registration</h1>
+ </div>
+
+ <h1 id="title" class="main message">Welcome To Class</h1>
+
+ <h4 id="subTitle">Work in progress</h4>
+
+   <!-- what is Event -->
+ <div id="container">
+    <button type="button" onclick="console.log('button click');">click me</button>
+    <button type="button" onclick="displayMsg()">Click here</button>
+    <button type="button" onclick="console.log(event);">Click here</button>
+    <button type="button" onclick="console.log(event.type);">Click here</button>
+    <button type="button" onclick="console.log(event.target);">Click here</button>
+
+    <!-- this  -->
+    <button type="button" onclick="console.log(this);">Click here</button>
+    <button id="btn" type="button" onclick="console.log(this.id);">Click here</button>
+    <button id="btn" type="button" onclick="console.log(id);">Click here</button>
+
+    
+    <button id="eventBtn" type="button" onclick="console.log(id);" style="background-color: blue; color: #fff;">Click here</button>
+ </div>
+
+
+
+</body>
+<script src="./dom.js"></script>
+</html>

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(255, 255, 255, 0.144) url(./images/IMG-20230304-WA0077.jpg) no-repeat center fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container{
+    margin: 180px 70px;
+}
+.container h1{
+    font-size: 80px;
+    width: 600px;
+    color: rgb(2, 64, 75);
+    line-height: 70px;
+}
+.container p{
+    font-size: 22px;
+    color: rgb(2, 64, 75);
+    margin-top: -20px;
+}
+.container button{
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(2, 64, 75);
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.width{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+  }
+  
+  .max-width{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 50px;
+    left: 30px;
+
+  }
+  .position{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  }
+  .sticky{
+    width: 400px;
+    height: 50px;
+    border: 3px solid #010129;
+    position: sticky;
+    top: 0;
+    left: 100px;
+  }
+
+  .box{
+    padding: 60px 80px;
+    margin: 2px;
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    /* width: 600px; */
+  }
+  @media only screen and (max-width: 600px) {
+  .box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+  }
+  .grid{
+    display: block;
+  }
+  
+  }
+
+  @media only screen and (min-width: 768px) {
+    .box{
+        background-color: rgb(164, 219, 11);
+        width: 400px;
+        height: 400px;
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .box{
+        padding: 60px 80px;
+        margin: 2px;
+        background-color: blueviolet;
+        width: 400px;
+        height: 400px;
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+        /* width: 600px; */
+      }
+  }

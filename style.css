@@ -1,0 +1,72 @@
+.lastp{
+    color: hsl(106, 64%, 44%);
+}
+/* h3 style */
+h3{
+    /* background-color: aqua; */
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(209, 207, 207); */
+
+}
+.form{
+    /* background-color: brown; */
+}
+body{
+    /* background-image: url(./images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    background: rgba(255, 255, 255, 0.116) url(./images/background2.jpg) no-repeat center fixed;
+    
+}
+.female{
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202); */
+    border: solid 1px rgb(202, 202, 202);
+    border-radius: 10px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0px 20px;
+    /* margin: auto; */
+    padding: 10px 5px 10px 5px ;
+    width: 100px;
+}
+.gender{
+    display: flex;
+}
+.male{
+    border: solid 1px rgb(202, 202, 202);
+    border-radius: 10px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0px 20px;
+    /* margin: auto; */
+    padding: 10px 5px 10px 5px ;
+    width: 100px;
+}
+.others{
+    border: solid 1px rgb(202, 202, 202);
+    border-radius: 10px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0px 20px;
+    /* margin: auto; */
+    padding: 10px 5px 10px 5px ;
+    width: 100px;
+}
+.outline{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    outline: 5px solid black;
+}
